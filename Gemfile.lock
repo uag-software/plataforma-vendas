@@ -144,7 +144,8 @@ GEM
     pg (1.1.4)
     pg (1.1.4-x86-mingw32)
     public_suffix (4.0.1)
-    puma (3.12.4)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -274,7 +275,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.5)
   pg (~> 1.1.2)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.1.7)
   rails_12factor
   record_tag_helper (~> 1.0)
